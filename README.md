@@ -123,7 +123,7 @@ public class UserVo {
 	<h3>User Info</h3>
 	<br>
 	1. <p th:text="${user.id}"></p>
-	1. <p th:text="${user.name}"></p>
-	1. <p th:text="${user.age}"></p>
+	2. <p th:text="${user.name}"></p>
+	3. <p th:text="${user.age}"></p>
 </body>
 </html>
